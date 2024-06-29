@@ -21,7 +21,7 @@ print(slice_1)  # Output: [1, 2, 3, 4]
 
 ## Tuples are ordered, immutable collections that can contain elements of different types.
 
-set = (1,2,3,4,5,6,7,8,9,10);
+set= (1,2,3,4,5,6,7,8,9,10);
 print(set);
 print(type(set));
 
