@@ -27,6 +27,7 @@ main()
     ## 2. condition
     ## 3. increment or decrement
 ## example:
+
 def main():
     x = 10;                 ## initinal value
     while x <= 20:           ## termaniation condition
@@ -46,3 +47,46 @@ def main():
     for i in x:
         print(i);
 main()
+
+
+# def main():
+#     while True:
+#         print('Enter the review b/w 1 - 5 scale??');
+#         x = eval(input());
+#         if x >= 1 and x <= 5:
+#             print('thanks for providing the review!!!');
+#             print('Storing the review in the database!!!');
+#         else:
+#            print('I think you are entring the wrong revieew!!!!')
+#            continue
+#         print('Lets go for the next movie!!!');
+# main()
+
+# def main():
+#     while True:
+#         print('Enter the review B/W 1 -5 scale?');
+#         i = eval(input());
+#         if i >= 1 and i <= 5:
+#             print('Thanks for providing the Review!!!');
+#             print('Your are review is stored in the database!!!!');
+#         else:
+#             print('I think your entring the wrong review!!!')
+#             break
+#         print('Go to the next review!!!!')
+
+# main()
+
+def main():
+    while True:
+        print('Enter the review b/w 1 - 5 scale???');
+        i = eval(input());
+        if i >= 1 and i <= 5:
+            print(' Thanks for the Review!!!!');
+            print('Storing the review in the daatabase!!!');
+        else:
+          print('I think you are entring the wrong review!!!!');
+        break
+    print('Lets go for the next movie!!!');
+      
+main()
+        
