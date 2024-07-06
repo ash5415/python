@@ -75,3 +75,38 @@ if os.path.exists('file2.txt'):
     print('file2 is deleted successfully!!!!!!')
     
 
+## hybrid modesin file operations
+
+## Reading and writing (r+ and w+)
+
+## r+ : open a file for both reading and writng. the file pointer is placed at the beginning of the file..
+
+## w+: Opens a file for both reading and writing. If the file does not exist, it creates a new file. 
+##     If the file exists, it truncates the file to zero length.
+    
+
+    
+## example:    [Reading and writing]
+    
+second = open('file.txt', 'r+')
+print(second.read());  
+print(second.write('\nadding the new line r+ mode'))  
+second.close();
+
+## Appending and Reading :
+## a+: Opens a file for both appending and reading. The file pointer is at the end of the file if it exists. 
+##     The file is created if it does not exist. 
+
+## example:
+
+app = open('file2.txt', 'w')
+app.write('welcome to the world!!!');
+print(app);
+
+## open file for appending Reading
+
+app = open('file2.txt', 'a+')
+app.write('\n adding the contect in to the file!!!')
+print(app.read());
+app.seek(5)
+app.read()
