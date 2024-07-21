@@ -62,3 +62,12 @@ def main(score):
         return 'D'
     else:
         return 'F'
+    
+
+
+## Multiple Positional Arguments 
+    
+def gretting(name, message):
+    return f"{name}, {message}"
+result = gretting('ashok', 'good moring')
+print(result)

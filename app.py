@@ -1,5 +1,6 @@
 ## Advanced Data types
 ## Lists are ordered, mutable collections that can contain elements of different types.
+
 x =[1,2,3,4,5,6,7,8,9,10];
 
 print(x);
